@@ -1,0 +1,1 @@
+../../../master_input/run_somd.sh
