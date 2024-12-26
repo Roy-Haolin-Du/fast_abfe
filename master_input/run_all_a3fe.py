@@ -77,9 +77,6 @@ def main() -> None:
 
     # Set the calcuations up with a "fast" config
     cfg = get_cfg(fast=True)
-    cfg.runtime_npt_unrestrained = 50
-    cfg.runtime_npt = 50
-    cfg.ensemble_equilibration_time = 100
     calc_set.setup(bound_leg_sysprep_config=cfg, free_leg_sysprep_config=cfg)
 
     # Run the calculations
